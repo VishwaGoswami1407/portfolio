@@ -12,7 +12,7 @@
 :root{
     --bg-color: #191919;
     --second-bg-color: #101010;
-    --main-color: #e9204f;
+    --main-color: #106082f7;
     --text-color: #fff;
     --second-color: #e4e4e4;
     --other-color: #c6c9d8bf;
@@ -114,7 +114,7 @@ section{
     color: var(--text-color);
     font-size: var(--p-font);
     font-weight: 600;
-    border: 2px solid var(--main-color);
+    border: 2px solid #cacdd5;
     transition: all ease .50s;
 }
 .btn:hover{
@@ -125,8 +125,8 @@ section{
 
 header.sticky{
     padding: 15px 11%;
-    background: #000;
-    border-bottom: 1px solid #4e5055;
+    background: #106082f7;
+    border-bottom: 1px solid #cacdd5;
    
 }
 .about-img img{
@@ -224,7 +224,7 @@ span{
     color: var(--text-color);
     font-size: 15px;
     font-weight: 500;
-    border: 2px solid var(--main-color);
+    border: 2px solid #cacdd5;
     border-radius: 2rem;
     transition: all ease .50s;
 }
@@ -233,6 +233,7 @@ span{
     background: transparent;
     border: 2px solid var(--main-color);
 }
+
 .service-box:hover{
     transform: translateY(-8px);
     border: 1px solid #4e5055;
